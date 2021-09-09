@@ -1,0 +1,19 @@
+scalar FileUpload
+
+type File {
+  id: Int!
+  name: String!
+  type: String!
+  size: Int!
+  path: String!
+}
+
+extend type Query {
+  files: [File]
+  postFiles(ids: [Int]): [File]
+}
+
+extend type Mutation {
+  uploadFiles(files: [FileUpload]!): File!
+  removeFile(id: Int!): Boolean!
+}
