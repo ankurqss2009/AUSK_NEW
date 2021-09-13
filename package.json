@@ -185,9 +185,11 @@
     "whatwg-fetch": "^2.0.4"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "inquirer": "^6.2.2",
     "lodash": "^4.17.11",
-    "opencollective": "^1.0.3"
+    "opencollective": "^1.0.3",
+    "react-modal": "^3.14.3"
   },
   "resolutions": {
     "fbjs": "^1.0.0",

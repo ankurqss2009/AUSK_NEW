@@ -26,7 +26,7 @@
     "noPostsMsg": "There are no posts yet.",
     "btn": {
       "edit": "Edit",
-      "submit": "Update",
+      "submit": "Publish",
       "del": "Delete",
       "back": "Back"
     },
@@ -54,5 +54,16 @@
       "more": "Load more ..."
     },
     "subTitle": "Post List"
+  },
+  "message": "Drag and drop some files here or click to select files for upload.",
+  "preview": "Preview",
+  "upload": "Upload",
+  "table": {
+    "column": {
+      "name": "File name",
+      "actions": "Actions",
+      "image": "Image"
+    },
+    "btnDel": "Delete"
   }
 }
